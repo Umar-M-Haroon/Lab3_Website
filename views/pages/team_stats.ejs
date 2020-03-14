@@ -20,7 +20,7 @@
 		</tr>
 		<% games.forEach(function(game) { %>
 		<tr>
-			<td><%= game.game_date %></td>
+			<td><%= game.game_date.toDateString() %></td>
 			<td><%= game.visitor_name %></td>
 			<td><%= game.home_score %></td>
 			<td><%= game.visitor_score %></td>
